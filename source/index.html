@@ -12,9 +12,12 @@
   <body class="page__body">
     <header class="main-header">
       <a class="main-header__logo" href="index.html">
-        <img class="main-header__logo-primary" src="images/svg/main-header__logo-primary.svg" width="33" height="38" alt="Магазин Cat Energy">
+        <picture>
+          <source width="174" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="./images/svg/logo-tablet.svg">
+          <img class="main-header__logo-primary" src="images/svg/main-header__logo-primary.svg" width="33" height="38" alt="Магазин Cat Energy">
+          <img class="main-header__logo-secodary" src="images/svg/main-header__logo-secodary.svg" width="128" height="24" alt="Логотип магазина">
+        </picture>
       </a>
-      <img class="main-header__logo-secodary" src="images/svg/main-header__logo-secodary.svg" width="128" height="24" alt="Логотип магазина">
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">
           <span class="visually-hidden">Переключить меню</span>
@@ -98,17 +101,15 @@
 
         <div class="slider">
           <picture>
-            <source width="280" height="512" type="image/png" media="(min-width: 1440px)" srcset="./images/slider-left-desktop@1x.png 1x, ./images/slider-left-desktop@2x.png 2x">
-            <source width="280" height="512" type="image/png" media="(min-width: 768px)" srcset="./images/slider-left-tablet@1x.png 1x, ./images/slider-left-tablet@2x.png 2x">
-            <img class="slider__before" src="./images/slider-left-mobile@1x.png" srcset="./images/slider-left-mobile@2x.png 2x" width="140" height="256" alt="Сравнение кота на питании до">
+            <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="./images/slider-before@1x.png 1x, ./images/slider-before@2x.png 2x">
+            <img class="slider__before" src="./images/slider-before-mobile@1x.png" srcset="./images/slider-before-mobile@2x.png 2x" width="280" height="256" alt="Сравнение кота на питании до">
           </picture>
           <button class="slider__button" type="button">
             <span class="visually-hidden">Перемещение ползунка</span>
           </button>
           <picture>
-            <source width="280" height="512" type="image/png" media="(min-width: 1440px)" srcset="./images/slider-right-desktop@1x.png 1x, ./images/slider-right-desktop@2x.png 2x">
-            <source width="280" height="512" type="image/png" media="(min-width: 768px)" srcset="./images/slider-right-tablet@1x.png 1x, ./images/slider-right-tablet@2x.png 2x">
-            <img class="slider__after" src="./images/slider-right-mobile@1x.png" srcset="./images/slider-right-mobile@2x.png 2x" width="140" height="256" alt="Сравнение кота на питании после">
+            <source width="560" height="512" type="image/png" media="(min-width: 768px)" srcset="./images/slider-after@1x.png 1x, ./images/slider-after@2x.png 2x">
+            <img class="slider__after" src="./images/slider-after-mobile@1x.png" srcset="./images/slider-after-mobile@2x.png 2x" width="280" height="256" alt="Сравнение кота на питании после">
           </picture>
         </div>
       </section>

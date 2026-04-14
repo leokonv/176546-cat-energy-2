@@ -12,9 +12,12 @@
   <body class="page__body">
     <header class="main-header">
       <a class="main-header__logo" href="index.html">
-        <img class="main-header__logo-primary" src="images/svg/main-header__logo-primary.svg" width="33" height="38" alt="Магазин Cat Energy">
-      </a>
-      <img class="main-header__logo-secodary" src="images/svg/main-header__logo-secodary.svg" width="128" height="24" alt="Логотип магазина">
+        <picture>
+          <source width="174" height="50" type="image/svg+xml" media="(min-width: 768px)" srcset="./images/svg/logo-tablet.svg">
+          <img class="main-header__logo-primary" src="images/svg/main-header__logo-primary.svg" width="33" height="38" alt="Магазин Cat Energy">
+          <img class="main-header__logo-secodary" src="images/svg/main-header__logo-secodary.svg" width="128" height="24" alt="Логотип магазина">
+        </picture>
+       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">
           <span class="visually-hidden">Переключить меню</span>
