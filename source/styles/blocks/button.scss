@@ -1,0 +1,14 @@
+.button {
+  display: flex;
+  justify-content: center;
+  color: $base-color-title;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button--secondary {
+  padding-top: 22px;
+  padding-bottom: 24px;
+  border-top: 1px solid $border-color-button-secondary;
+}
+
