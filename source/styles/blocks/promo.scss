@@ -1,3 +1,44 @@
 .promo {
+  position: relative;
+  margin-bottom: 20px;
+}
 
+.promo__wrapper {
+  background: url("../../images/index-background-mobile@1x.jpg") no-repeat center, $base-color-button;
+  background-size: contain;
+
+  font-family: $secondary-font;
+  color: $second-color-title;
+  text-align: center;
+
+  margin-bottom: 138px;
+}
+
+.promo__title {
+  display: block;
+  margin: 0;
+  font-size: 36px;
+  line-height: 36px;
+  padding: 25px;
+}
+
+.promo__description {
+  display: block;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  padding-bottom: 164px;
+}
+
+.promo__picture {
+  position: absolute;
+  top: 61%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.promo_button {
+  margin: 0 20px;
+  font-size: 16px;
+  line-height: 20px;
 }

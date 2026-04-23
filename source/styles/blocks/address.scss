@@ -1,3 +1,18 @@
-.address {
+.address__wrapper {
+  margin: 26px 20px;
+  display: flex;
+}
 
+.address__title {
+  margin: 0;
+  color: $address-title-color;
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.address__image {
+  display: flex;
+  justify-content: center;
 }
