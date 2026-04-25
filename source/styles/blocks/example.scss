@@ -24,6 +24,9 @@
 .example__parameters {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  margin: 20px 0;
 }
 
 .example__description {

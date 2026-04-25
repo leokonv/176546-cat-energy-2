@@ -1,5 +1,5 @@
 .parameters__title {
-  border: 2px solid $parameters-title-border-bolor;
+  border: 1px solid $parameters-title-border-bolor;
   padding: 15px 43px 18px;
   border-radius: 3px;
   font-family: $secondary-font;
@@ -11,7 +11,6 @@
 
 .parameters__wrapper {
   position: relative;
-  margin: 20px 0 34px;
   display: flex;
 }
 

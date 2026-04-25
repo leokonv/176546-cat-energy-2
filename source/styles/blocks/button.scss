@@ -11,6 +11,8 @@
   color: $second-color-title;
   background-color: $base-color-button;
   padding: 10px 0;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .button--secondary {
@@ -21,5 +23,4 @@
 
 .button--transparent {
   justify-content: left;
-  padding: 15px 127px 18px 20px;
 }

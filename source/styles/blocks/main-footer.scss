@@ -1,13 +1,13 @@
 .main-footer {
   background-color: $example-background-color;
-  padding: 0 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .main-footer__logo {
   display: flex;
   justify-content: center;
-  padding-top: 40px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 
@@ -15,5 +15,4 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0 40px;
 }

@@ -1,6 +1,7 @@
 .address__wrapper {
-  margin: 26px 20px;
+  padding: 26px 20px;
   display: flex;
+  gap: 20px;
 }
 
 .address__title {
@@ -15,4 +16,9 @@
 .address__image {
   display: flex;
   justify-content: center;
+}
+
+.address__description {
+  font-style: normal;
+  line-height: 20px;
 }
