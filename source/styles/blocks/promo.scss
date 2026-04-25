@@ -1,7 +1,9 @@
 .promo {
   position: relative;
   margin-bottom: 20px;
-  background-image: url("../../images/index-background-mobile@1x.jpg"), linear-gradient(to bottom, $base-color-button, $second-color-title);
+  background-image:
+    linear-gradient(to bottom, $accent-color-primary-opacity 0%, $accent-color-primary-opacity 45%, transparent 45%, transparent 100%),
+    url("../../images/index-background-mobile@1x.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   //background-position: center;
