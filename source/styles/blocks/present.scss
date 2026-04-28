@@ -1,3 +1,20 @@
 .present {
+  padding-top: 35px;
+}
 
+.present__wrapper {
+  background-image:
+    linear-gradient(to bottom, $accent-color-primary-opacity),
+    url("../../images/catalog-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  min-width: 280px;
+  min-height: 290px;
+}
+
+.present__description {
+  color: $second-color-title;
+  padding: 187px 61px 43px 51px;
 }

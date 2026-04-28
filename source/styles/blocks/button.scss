@@ -5,14 +5,14 @@
   color: $base-color-title;
   text-transform: uppercase;
   text-decoration: none;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .button--primary {
   color: $second-color-title;
   background-color: $accent-color-primary;
   padding: 10px 0;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .button--secondary {
@@ -23,4 +23,12 @@
 
 .button--transparent {
   justify-content: left;
+}
+
+.button--tertiary {
+  color: $base-color-description;
+  background-color: $basic-grey;
+  padding: 10px 0;
+  width: 100%;
+  border: none;
 }
