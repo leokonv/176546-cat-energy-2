@@ -9,12 +9,14 @@
 .catalog-item__wrapper {
   display: flex;
   flex-direction: column;
-  min-width: 140px;
+  width: 50%;
 }
 
-.catalog-item__image {
-  width: 100%;
-  min-width: 140px;
+.catalog-item__picture {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .catalog-item__title {

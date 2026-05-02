@@ -4,10 +4,27 @@
 }
 
 .additional__title {
+  margin-top: 25px;
+  margin-bottom: 36px;
   font-family: $secondary-font;
   font-size: 24px;
   line-height: 24px;
   font-weight: 400;
   color: $base-color-title;
   letter-spacing: 0;
+}
+
+.additional__present {
+  margin-top: 35px;
+  background-image:
+    linear-gradient(to bottom, $accent-color-primary-opacity),
+    url("../../images/catalog-background-mobile@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  min-height: 290px;
+  display: flex;
+  align-items: end;
 }
