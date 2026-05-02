@@ -1,0 +1,36 @@
+.catalog-item {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.catalog-item__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.catalog-item__picture {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.catalog-item__title {
+  margin: 0;
+  margin-bottom: 14px;
+  font-family: $secondary-font;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  max-width: 80px;
+}
+
+.catalog__button {
+  margin-top: 17px;
+  width: 100%;
+}

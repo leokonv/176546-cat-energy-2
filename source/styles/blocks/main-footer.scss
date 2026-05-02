@@ -1,0 +1,18 @@
+.main-footer {
+  background-color: $background-grey;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.main-footer__logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+
+.main-footer__copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

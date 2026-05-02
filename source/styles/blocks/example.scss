@@ -1,0 +1,34 @@
+.example {
+  background-color: $background-grey;
+  padding: 25px 20px 40px;
+}
+
+.example__title {
+  font-family: $secondary-font;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.example__price {
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.example__parameters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  margin: 20px 0;
+}
+
+.example__description {
+  margin: 0;
+}

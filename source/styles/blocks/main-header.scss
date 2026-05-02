@@ -1,0 +1,15 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 13px 20px;
+}
+
+.main-header__logo {
+  display: flex;
+  width: 100%;
+}
+
+.main-header__logo-secodary {
+  margin: 0 auto;
+}

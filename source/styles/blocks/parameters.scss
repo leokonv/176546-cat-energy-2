@@ -1,0 +1,29 @@
+.parameters__title {
+  border: 1px solid $parameters-title-border-bolor;
+  padding: 15px 43px 18px;
+  border-radius: 3px;
+  font-family: $secondary-font;
+  font-size: 24px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: $base-color-title;
+}
+
+.parameters__wrapper {
+  position: relative;
+  display: flex;
+}
+
+.parameters__description {
+  position: absolute;
+  text-align: center;
+
+  background-color: $background-grey;
+
+  font-size: 12px;
+  line-height: 100%;
+
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
