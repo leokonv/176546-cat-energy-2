@@ -19,4 +19,32 @@
 
 .advantages__description {
   margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.advantages__description:before {
+  flex-shrink: 0;
+  content: "";
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 20px;
+}
+
+.advantages__description--function:before {
+  background-image: url("../../icons/icon-function.svg");
+}
+
+.advantages__description--water:before {
+  background-image: url("../../icons/icon-water.svg");
+}
+
+.advantages__description--change:before {
+  background-image: url("../../icons/icon-change.svg");
+}
+
+.advantages__description--time:before {
+  background-image: url("../../icons/icon-time.svg");
 }

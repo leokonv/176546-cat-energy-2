@@ -18,13 +18,17 @@
   margin: 0;
 }
 
-.effects__title--loss:before {
+.effects__title:before {
+  flex-shrink: 0;
   content: "";
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.effects__title--loss:before {
   width: 50px;
   height: 53px;
   background-image: url("../../icons/weight-loss.svg");
-  background-repeat: no-repeat;
-  background-position: center;
   margin-right: 20px;
 }
 
@@ -33,7 +37,4 @@
   height: 50px;
   background-image: url("../../icons/weight-gain.svg");
   margin-right: 11px;
-}
-
-.effects__description {
 }
