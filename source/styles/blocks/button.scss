@@ -22,7 +22,20 @@
 }
 
 .button--transparent {
+  display: flex;
   justify-content: left;
+  align-items: center;
+}
+
+.button--transparent:after {
+  flex-shrink: 0;
+  content: "";
+  width: 32px;
+  height: 10px;
+  background-image: url("../../icons/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 15px;
 }
 
 .button--tertiary {
